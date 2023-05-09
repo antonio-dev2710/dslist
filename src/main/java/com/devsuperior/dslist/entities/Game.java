@@ -22,7 +22,7 @@ public class Game {
 	private String platforms;
 	private Double score;
 	private String imgUrl;
-	
+	//descrição loga padrão é varchar limite =255
 	@Column(columnDefinition = "TEXT")
 	private String shortDescription;
 
