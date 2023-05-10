@@ -7,6 +7,7 @@ public class GameMinDTO {
 //DTO=é um padrão de software voltado para a transferência de dados entre 
 //as camadas de uma aplicação. Ele consiste 
 //basicamente no entendimento de como as informações trafegam dentro de um sistema.
+	//costomiza o formato da API
 	private Long id;
 	private String title;
 	private Integer year;
