@@ -14,6 +14,13 @@ public class GameList {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
  private long id;
  private String name;
+ 
+ public GameList() {
+		
+		this.id = id;
+		this.name = name;
+	}
+ 
 public GameList(long id, String name) {
 	super();
 	this.id = id;
