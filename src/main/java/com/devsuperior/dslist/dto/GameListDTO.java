@@ -1,19 +1,22 @@
 package com.devsuperior.dslist.dto;
 
+
+
+
 import com.devsuperior.dslist.entities.GameList;
 
 public class GameListDTO {
 
 	private long id;
-	 private String name;
-	 
+	private String name;
+
 	public GameListDTO() {
 		super();
 	}
 
 	public GameListDTO(GameList entity) {
-		
-		id =entity.getId();
+
+		id = entity.getId();
 		name = entity.getName();
 	}
 
@@ -24,7 +27,5 @@ public class GameListDTO {
 	public String getName() {
 		return name;
 	}
-	 
-	
-	 
+
 }
