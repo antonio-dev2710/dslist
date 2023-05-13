@@ -10,7 +10,10 @@ public class WebConfig {
 	//esse valor ta no aplication. properties
 	@Value("${cors.origins}")
 	private String corsOrigins;
-	
+	//esse calsse serve para configurar o cors
+	//pega o valor da virável que ta configurado aq cors.origins e 
+	//joga para vriáel corsOrigins e faz a configuração através do método allowedOrigins
+	//permitindo o acesso aos endereços que estiver nessa variável
 	@Bean
 	public WebMvcConfigurer corsConfigurer() {
 		return new WebMvcConfigurer() {
